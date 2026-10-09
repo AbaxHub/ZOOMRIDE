@@ -1,4 +1,4 @@
-# ZOOMRIDE SQL Project
+# ZOOMRIDE SQL PROJECT
 
 Tool used: MYSQL(OneCompiler)
 
@@ -31,11 +31,11 @@ Answer = Economy with ₦ 5,116,230 Revenue.
 
 Answer: Lagos city, currently is giving revenue of ₦ 218,890, which investing more in the city, it will give a very good turnover.
 
-2... two data problems found
+2... Two data problems found
 
  Answers:
  
-i. Duplicate of data 
+i. Duplicate data, 
 having duplicate in our data, we will result to wrong result in our aggregation
 
 
