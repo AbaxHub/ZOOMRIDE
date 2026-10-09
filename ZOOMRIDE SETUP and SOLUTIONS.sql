@@ -498,10 +498,10 @@ ORDER BY TotalRevenue DESC;
 
 -- Q7 Revenue by Month.
 
-SELECT DATE_FORMAT(trip_date,'%Y-%m') AS MonthAndYear ,CONCAT('₦' ,SUM(fare)) AS TotalRevenue  FROM trips
+SELECT DATE_FORMAT(trip_date,'%Y-%m') AS MonthAndYear ,CONCAT('₦' ,SUM(fare)) AS TotalRevenue,COUNT(trip_id) AS NumOfTrip  FROM trips
 WHERE status = 'Completed'
 GROUP BY DATE_FORMAT(trip_date,'%Y-%m')
-ORDER  BY TotalRevenue DESC;
+ORDER  BY NumOfTrip DESC, TotalRevenue DESC;
 
 
 -- Part 5: Join two tables
